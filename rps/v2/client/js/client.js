@@ -10,6 +10,9 @@ function onMessage(text) {
 	let el = document.createElement('li');
 	el.innerHTML = text;
 	list.appendChild(el);
+
+	// Scroll to view
+	list.scrollTop = list.scrollHeight;
 }
 
 form.addEventListener('submit', function (e) {

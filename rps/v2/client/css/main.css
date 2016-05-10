@@ -43,9 +43,11 @@ body {
     padding: 5px 15px;
 }
 
-.game-controls button {
-    border: 0;
+button {
     font-size: 1em;
     padding: 5px 10px;
-    background-color: #9DDCA2;
+}
+
+input {
+    font-size: 20px;
 }
