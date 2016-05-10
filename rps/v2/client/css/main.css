@@ -1,0 +1,51 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 400px;
+    background: #eee;
+    margin: 0 auto;
+    position: relative;
+}
+
+.chat-input {
+    width: 300px;
+    height: 20px;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.chat-controls {
+    border: 0;
+    padding: 5px 15px;
+}
+
+#chat {
+    height: 250px;
+    overflow-y: scroll;
+    padding: 0 15px;
+}
+
+#chat li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+#chat li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.game-controls {
+    padding: 5px 15px;
+}
+
+.game-controls button {
+    border: 0;
+    font-size: 1em;
+    padding: 5px 10px;
+    background-color: #9DDCA2;
+}

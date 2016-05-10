@@ -3,27 +3,28 @@
     <head>
         <meta charset="utf-8">
         <title>RPS Online</title>
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
 
         <div class="wrapper">
-            <div class="main">
+            <div class="game">
                 <ul id="chat"></ul>
-            </div>
-            <div class="game-controls">
-                <button id="rock">Rock</button>
-                <button id="paper">Paper</button>
-                <button id="scissors">Scissors</button>
-            </div>
-            <div class="chat-controls">
-                <form id="chat-form">
-                    <input id="chat-input"/>
-                    <button>Send</button>
-                </form>
+                <div class="game-controls">
+                    <button id="rock">Rock</button>
+                    <button id="paper">Paper</button>
+                    <button id="scissors">Scissors</button>
+                </div>
+                <div class="chat-controls">
+                    <form id="chat-form">
+                        <input id="chat-input"/>
+                        <button>Send</button>
+                    </form>
+                </div>
             </div>
         </div>
 
         <script src="/socket.io/socket.io.js"></script>
-        <script src="js/client.js"></script>
+        <script src="dist/client.js"></script>
     </body>
 </html>
