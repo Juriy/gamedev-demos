@@ -5,8 +5,5 @@ YouTube playlist: https://www.youtube.com/playlist?list=PLrEyydzMmC6CnC-DqbkFn5b
 To run:
 
 ```
-npm start
+iojs --harmony-arrow-functions --harmony-rest-parameters server.js
 ```
-
-Images for Rock Paper Scissors:
-http://america.pink/rock-paper-scissors_3784220.html

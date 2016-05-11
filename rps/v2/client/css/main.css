@@ -1,51 +1,32 @@
 body {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 .wrapper {
     width: 400px;
-    background: #eee;
     margin: 0 auto;
-    position: relative;
+    background-color: #eee;
+    padding: 5px;
 }
 
-.chat-input {
-    width: 300px;
-    height: 20px;
-    font-size: 1em;
-    margin: 10px;
-}
-
-.chat-controls {
-    border: 0;
-    padding: 5px 15px;
+.row {
+    padding: 5px 0;
 }
 
 #chat {
-    height: 250px;
+    margin: 0;
+    padding: 0;
+    height: 200px;
     overflow-y: scroll;
-    padding: 0 15px;
 }
 
 #chat li {
-    margin-bottom: 10px;
-    margin-top: 10px;
     list-style-type: none;
-}
-
-#chat li {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    list-style-type: none;
-}
-
-.game-controls {
-    padding: 5px 15px;
+    padding-top: 3px;
 }
 
 button {
-    font-size: 1em;
-    padding: 5px 10px;
+    font-size: 20px;
 }
 
 input {

@@ -4,9 +4,9 @@
   "description": "Rock Paper Scissors online",
   "main": "server.js",
   "scripts": {
-    "build": "babel client/js -d client/dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "babel client/js -d client/dist"
   },
   "repository": {
     "type": "git",
